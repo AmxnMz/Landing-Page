@@ -1,0 +1,51 @@
+body{
+    font-family: Roboto;
+    background-color: #1f2937;
+}
+/*FIRST PART OF THE LANDING PAGE*/
+.header{
+    background-color: #1f2937;
+}
+.navbar ul{
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    color:#e5e7eb;
+}
+.navbar li{
+    float: left;
+    margin-right: 20px;
+}
+#nav-left{
+    float: left;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: 20px;
+    position: absolute;
+    left: 10%;
+}
+#nav-right{
+    float: right;
+    text-decoration: none;
+    
+}
+
+.header p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.img_01{
+    float: right;
+    width: 40%;
+}
+.text-image{
+    position: absolute;
+    width: 70%;
+    left: 10%;
+}
