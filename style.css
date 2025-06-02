@@ -58,6 +58,7 @@ body{
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 5px;
+    font-size: 20px;
     
 }
 .second-ctn h3{
@@ -112,4 +113,53 @@ body{
     position: absolute;
     top: 170%;
     right: 20%;
+}
+/*Last section of the landing page*/
+.last-ctn{
+    height: 400px;
+}
+.cta{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 70%;
+    height: 10%;
+    margin: auto;
+    padding: 70px;
+    border-radius: 10px;
+    font-size: large;
+    position: absolute;
+    top: 195%;
+    left: 10%;
+}
+.cta h3{
+    font-size: 30px;
+    position: absolute;
+    bottom: 30%;
+}
+.cta p{
+    color: #e5e7eb;
+    position: absolute;
+    bottom: 20%;
+}
+.last-ctn button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 10%;
+    font-size: 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 60%;
+    top: 208%
+}
+.last-ctn button:hover{
+    background-color: grey;
+    color: black;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    color: #f9faf8;
 }
